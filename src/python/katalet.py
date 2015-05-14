@@ -2,7 +2,7 @@ import sys
 
 def main(argv):
     try:
-        kataName = sys.argv[1]
+        kataName = argv[1]
     except:
         print 'Please enter a katalet name.'
         exit(2)
