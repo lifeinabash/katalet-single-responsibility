@@ -1,8 +1,7 @@
 if ARGV.length == 0
-    puts "Please enter a katalet name."
-    exit
+  puts "Please enter a katalet name."
+  exit 1
 end
 
-kataName = ARGV[0]
-output = "The katalet you have selected is %s" % kataName
-puts output
+kata_name = ARGV[0]
+puts "The katalet you have selected is #{kata_name}"
