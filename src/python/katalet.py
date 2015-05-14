@@ -1,4 +1,13 @@
 import sys
 
-kataName = sys.argv[1]
-print 'The katalet you have selected is', kataName
+def main(argv):
+    try:
+        kataName = sys.argv[1]
+    except:
+        print 'Please enter a katalet name.'
+        exit(2)
+
+    print 'The katalet you have selected is', kataName
+
+if __name__ == "__main__":
+        main(sys.argv[1:])
