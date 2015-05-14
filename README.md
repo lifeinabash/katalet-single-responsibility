@@ -5,7 +5,7 @@ This is an attempt to design a curriculum for developers of all abilities to lev
 
 ## How to use the curriculum
 
-Simply read the presentation or doc file to learn about the issue.
+Simply read the [presentation](https://docs.google.com/presentation/d/12vNh4FTAhz0qWQlpswWIdwifRlUVL1huw2038czCDak/) or doc file to learn about the issue.
 
 Checkout the runnable code under src/{fav-language} that violates the learned pattern.
 
